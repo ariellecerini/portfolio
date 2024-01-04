@@ -1,0 +1,49 @@
+@import "../../abstracts/variables";
+
+
+
+
+.cards-container {
+        position: relative;
+        padding: 1rem; 
+      
+      .card-figure {
+        overflow: hidden;
+        background-color: #e0e0e0;
+      }
+      .card-body {
+        display: flex;
+        flex-direction: column;
+        border-radius: $space-md;
+        border: solid $border-weight-01 $border-color-02;
+        overflow: hidden;
+        height: 100%;
+        
+      }
+      .card-title {
+        font-size: 1.2rem;
+        margin-bottom: 0.2rem;
+      }
+      .card-text {
+        padding: 1.5em; 
+        font-size: 1rem;
+      }
+      .card-link {
+        text-decoration: none;
+      }
+
+      .category{
+        background: $color-secondary-tints-10;
+        border: $border-weight-02 solid $color-secondary;
+        border-radius: $space-md; 
+        padding: $space-xs $space-s; 
+        
+        @include padding-y-xs; 
+        color: $text-color-01;
+        width: fit-content;
+        margin-right: $space-s; 
+        margin-bottom: $space-s;
+        margin-top: 0;
+      }
+    
+  }

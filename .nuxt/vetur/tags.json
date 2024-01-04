@@ -1,0 +1,77 @@
+{
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  },
+  "BaseUiElementsCard": {
+    "description": "Auto imported from components/base-ui-elements/Card.vue"
+  },
+  "BaseUiElementsSlideout": {
+    "description": "Auto imported from components/base-ui-elements/slideout.vue"
+  },
+  "BaseUiElementsCardsFeaturedPlain": {
+    "description": "Auto imported from components/base-ui-elements/cards/FeaturedPlain.vue"
+  },
+  "BaseUiElementsCardsFeaturedSliderCard": {
+    "description": "Auto imported from components/base-ui-elements/cards/FeaturedSliderCard.vue"
+  },
+  "BaseUiElementsCardsPlainCards": {
+    "description": "Auto imported from components/base-ui-elements/cards/PlainCards.vue"
+  },
+  "BaseUiElementsCardsSliderCard": {
+    "description": "Auto imported from components/base-ui-elements/cards/SliderCard.vue"
+  },
+  "BaseUiElementsCardsPcard": {
+    "description": "Auto imported from components/base-ui-elements/cards/pcard.vue"
+  },
+  "BaseUiElementsContainersCircleContainer": {
+    "description": "Auto imported from components/base-ui-elements/containers/circle-container.vue"
+  },
+  "BaseUiElementsCoreButtonLink": {
+    "description": "Auto imported from components/base-ui-elements/core/button-link.vue"
+  },
+  "BaseUiElementsCoreButtons": {
+    "description": "Auto imported from components/base-ui-elements/core/buttons.vue"
+  },
+  "LayoutNavigationMenuBar": {
+    "description": "Auto imported from components/layout/navigation/menu-bar.vue"
+  },
+  "LayoutNavigationMenuDrawer": {
+    "description": "Auto imported from components/layout/navigation/menu-drawer.vue"
+  },
+  "LayoutNavigationMenuIconButton": {
+    "description": "Auto imported from components/layout/navigation/menu-icon-button.vue"
+  },
+  "LayoutNavigationNavbar": {
+    "description": "Auto imported from components/layout/navigation/navbar.vue"
+  },
+  "BaseUiElementsInformationTagsProjectType": {
+    "description": "Auto imported from components/base-ui-elements/Information/Tags/ProjectType.vue"
+  },
+  "BaseUiElementsCoreTextH1Text": {
+    "description": "Auto imported from components/base-ui-elements/core/text/h1-text.vue"
+  },
+  "BaseUiElementsThemePatternsProjectPagesPersona": {
+    "description": "Auto imported from components/base-ui-elements/theme-patterns/project-pages/Persona.vue"
+  },
+  "BaseUiElementsThemePatternsProjectButton": {
+    "description": "Auto imported from components/base-ui-elements/theme-patterns/project-pages/ProjectButton.vue"
+  },
+  "BaseUiElementsThemePatternsProjectDescription": {
+    "description": "Auto imported from components/base-ui-elements/theme-patterns/project-pages/ProjectDescription.vue"
+  },
+  "BaseUiElementsThemePatternsProjectDetails": {
+    "description": "Auto imported from components/base-ui-elements/theme-patterns/project-pages/ProjectDetails.vue"
+  },
+  "BaseUiElementsThemePatternsProjectSubtitle": {
+    "description": "Auto imported from components/base-ui-elements/theme-patterns/project-pages/ProjectSubtitle.vue"
+  },
+  "BaseUiElementsThemePatternsProjectTimeframe": {
+    "description": "Auto imported from components/base-ui-elements/theme-patterns/project-pages/ProjectTimeframe.vue"
+  },
+  "BaseUiElementsThemePatternsProjectTitle": {
+    "description": "Auto imported from components/base-ui-elements/theme-patterns/project-pages/ProjectTitle.vue"
+  }
+}

@@ -1,0 +1,203 @@
+$color-primary: rgba(1,42,77,1);
+$color-tertiary: rgba(211,227,10,1);
+$color-secondary: rgba(255,145,149,1);
+$color-tints-primary-primary-90: rgba(5,50,89,1);
+$color-tints-primary-primary-80: rgba(13,61,102,1);
+$color-tints-primary-primary-70: rgba(25,80,128,1);
+$color-tints-primary-primary-60: rgba(46,101,153,1);
+$color-tints-primary-primary-50: rgba(71,127,179,1);
+$color-tints-primary-primary-40: rgba(102,155,204,1);
+$color-tints-primary-primary-30: rgba(138,184,230,1);
+$color-tints-primary-primary-20: rgba(179,217,255,1);
+$color-tints-primary-primary-10: rgba(204,230,255,1);
+$color-tints-primary-primary-05: rgba(235,245,255,1);
+$color-tints-secondary-secondary-90: rgba(255,153,156,1);
+$color-tints-secondary-secondary-80: rgba(252,159,162,1);
+$color-tints-secondary-secondary-60: rgba(252,177,178,1);
+$color-tints-secondary-secondary-50: rgba(252,192,193,1);
+$color-tints-secondary-secondary-40: rgba(252,207,208,1);
+$color-tints-secondary-secondary-30: rgba(252,215,215,1);
+$color-tints-secondary-secondary-20: rgba(252,227,228,1);
+$color-tints-secondary-secondary-10: rgba(252,240,240,1);
+$color-tints-secondary-secondary-05: rgba(252,244,244,1);
+$color-tints-tertiary-tints-tertiary-50: rgba(222,235,82,1);
+$color-tints-tertiary-tints-tertiary-40: rgba(228,245,110,1);
+$color-tints-tertiary-tints-tertiary-30: rgba(244,252,151,1);
+$color-tints-tertiary-tints-tertiary-20: rgba(251,255,204,1);
+$color-tints-tertiary-tints-tertiary-10: rgba(253,255,230,1);
+$color-tints-tertiary-tints-tertiary-05: rgba(254,255,242,1);
+$color-tints-tertiary-shades-tertiary-100: rgba(164,176,8,1);
+$color-tints-tertiary-shades-tertiary-90: rgba(175,189,8,1);
+$color-tints-tertiary-shades-tertiary-80: rgba(187,201,9,1);
+$color-tints-tertiary-shades-tertiary-70: rgba(199,214,9,1);
+$color-tints-neutral-neutral: rgba(0,0,0,1);
+$color-tints-neutral-neutral-90: rgba(26,26,26,1);
+$color-tints-neutral-neutral-80: rgba(51,51,51,1);
+$color-tints-neutral-neutral-70: rgba(77,77,77,1);
+$color-tints-neutral-neutral-60: rgba(102,102,102,1);
+$color-tints-neutral-neutral-50: rgba(128,128,128,1);
+$color-tints-neutral-neutral-40: rgba(153,153,153,1);
+$color-tints-neutral-neutral-30: rgba(179,179,179,1);
+$color-tints-neutral-neutral-20: rgba(204,204,204,1);
+$color-tints-neutral-neutral-10: rgba(230,230,230,1);
+$color-tints-neutral-neutral-0: rgba(255,255,255,1);
+$color-documentation-applied-cell-border-color: rgba(83,110,128,1);
+$color-documentation-applied-container-border-color: rgba(177,209,229,1);
+$color-documentation-applied-cell-background-color: rgba(250,253,255,1);
+$color-documentation-primary-primary: rgba(50,66,77,1);
+$color-documentation-primary-primary-90: rgba(50,66,77,1);
+$color-documentation-primary-primary-80: rgba(66,88,102,1);
+$color-documentation-primary-primary-70: rgba(83,110,128,1);
+$color-documentation-primary-primary-60: rgba(108,143,166,1);
+$color-documentation-primary-primary-50: rgba(124,166,191,1);
+$color-documentation-primary-primary-40: rgba(177,209,229,1);
+$color-documentation-primary-primary-30: rgba(206,228,242,1);
+$color-documentation-primary-primary-20: rgba(235,247,255,1);
+$color-documentation-primary-primary-10: rgba(242,250,255,1);
+@mixin text-style-heading-1-text {
+	font-size:1.875rem;
+	font-family:"Open Sans";
+	font-weight:700;
+	font-style:normal;
+	letter-spacing:-0.02em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-heading-2-text {
+	font-size:1.75rem;
+	font-family:"Open Sans";
+	font-weight:600;
+	font-style:normal;
+	letter-spacing:0.005em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-body-text {
+	font-size:1rem;
+	font-family:"Open Sans";
+	font-weight:400;
+	font-style:normal;
+	line-height:32px;
+	letter-spacing:0.005em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-small-body-text {
+	font-size:0.875rem;
+	font-family:"Open Sans";
+	font-weight:400;
+	font-style:normal;
+	line-height:28px;
+	letter-spacing:0.005em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-smallest-body-text {
+	font-size:0.75rem;
+	font-family:"Open Sans";
+	font-weight:400;
+	font-style:normal;
+	line-height:24px;
+	letter-spacing:0.005em;
+	text-decoration:none;
+	text-transform:none;
+}
+
+/* Use to label rows in UI Element Documentation  */
+@mixin text-style-element-component-label {
+	font-size:0.75rem;
+	font-family:"IBM Plex Mono";
+	font-weight:500;
+	font-style:normal;
+	letter-spacing:0.005em;
+	text-decoration:none;
+	text-transform:none;
+}
+
+/* Use this type style for any description text for a UI Element */
+@mixin text-style-element-description {
+	font-size:0.625rem;
+	font-family:"IBM Plex Mono";
+	font-weight:400;
+	font-style:normal;
+	letter-spacing:0.005em;
+	text-decoration:none;
+	text-transform:none;
+}
+
+/* Use this text style to title a section of a documentation page */
+@mixin text-style-element-sub-heading {
+	font-size:1.375rem;
+	font-family:"IBM Plex Mono";
+	font-weight:500;
+	font-style:normal;
+	letter-spacing:0.005em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-element-cell-documentation-label {
+	font-size:0.75rem;
+	font-family:"IBM Plex Mono";
+	font-weight:500;
+	font-style:normal;
+	letter-spacing:0.005em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-element-cell-documentation-title {
+	font-size:0.625rem;
+	font-family:"IBM Plex Mono";
+	font-weight:500;
+	font-style:normal;
+	letter-spacing:0.005em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-heading-3-text {
+	font-size:1.5rem;
+	font-family:"Open Sans";
+	font-weight:600;
+	font-style:normal;
+	letter-spacing:0.005em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-heading-4-text {
+	font-size:1.25rem;
+	font-family:"Open Sans";
+	font-weight:700;
+	font-style:normal;
+	letter-spacing:0.005em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-heading-5-text {
+	font-size:1.125rem;
+	font-family:"Open Sans";
+	font-weight:600;
+	font-style:normal;
+	letter-spacing:0.005em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-heading-6-text {
+	font-size:1rem;
+	font-family:"Open Sans";
+	font-weight:700;
+	font-style:normal;
+	letter-spacing:0.005em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin text-style-element-cell-variable {
+	font-size:0.5rem;
+	font-family:"IBM Plex Mono";
+	font-weight:500;
+	font-style:normal;
+	letter-spacing:0.005em;
+	text-decoration:none;
+	text-transform:none;
+}
+@mixin effect-style-swatch-drop-style {
+	box-shadow:inset 0px 3px 6px rgba(0,0,0,0.160);
+}
