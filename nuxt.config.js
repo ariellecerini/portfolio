@@ -50,10 +50,10 @@ module.exports = {
     '~assets/style.css',
   ],
 
-  server: {
-    port: 8000, // default: 3000
-    host: '172.104.217.73' // default: localhost when posting to server should read 172.104.217.73
-  },
+  // server: {
+  //   port: 8000, // default: 3000
+  //   host: '172.104.217.73' // default: localhost when posting to server should read 172.104.217.73
+  // },
 
   ssr: true,
   target: 'server',

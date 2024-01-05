@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{331:function(t,n,l){"use strict";l.r(n);var e={name:"Buttons",props:{label:String,alt:String}},r=l(14),component=Object(r.a)(e,(function(){var t=this;return(0,t._self._c)("button",{staticClass:"btn",attrs:{alt:"${alt}",label:"testing"}},[t._v(t._s(t.label))])}),[],!1,null,null,null);n.default=component.exports}}]);

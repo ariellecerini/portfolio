@@ -12,9 +12,9 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_7627e5ec from 'nuxt_plugin_plugin_7627e5ec' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_cookieuniversalnuxt_ccac22ac from 'nuxt_plugin_cookieuniversalnuxt_ccac22ac' // Source: ./cookie-universal-nuxt.js (mode: 'all')
-import nuxt_plugin_axios_063ad9fc from 'nuxt_plugin_axios_063ad9fc' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_plugin_e248e85a from 'nuxt_plugin_plugin_e248e85a' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_cookieuniversalnuxt_42ba4911 from 'nuxt_plugin_cookieuniversalnuxt_42ba4911' // Source: ./cookie-universal-nuxt.js (mode: 'all')
+import nuxt_plugin_axios_72aa9b69 from 'nuxt_plugin_axios_72aa9b69' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_googleAnalytics_728a9100 from 'nuxt_plugin_googleAnalytics_728a9100' // Source: ../plugins/googleAnalytics.js (mode: 'client')
 import nuxt_plugin_stickyHeader_2f1703aa from 'nuxt_plugin_stickyHeader_2f1703aa' // Source: ../plugins/stickyHeader.js (mode: 'client')
 
@@ -45,7 +45,7 @@ Vue.component(Nuxt.name, Nuxt)
 
 Object.defineProperty(Vue.prototype, '$nuxt', {
   get() {
-    const globalNuxt = this.$root.$options.$nuxt
+    const globalNuxt = this.$root ? this.$root.$options.$nuxt : null
     if (process.client && !globalNuxt && typeof window !== 'undefined') {
       return window.$nuxt
     }
@@ -59,7 +59,8 @@ Vue.use(Meta, {"keyName":"head","attribute":"data-n-head","ssrAttribute":"data-n
 const defaultTransition = {"name":"page","mode":"out-in","appear":false,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
 
 async function createApp(ssrContext, config = {}) {
-  const router = await createRouter(ssrContext, config)
+  const store = null
+  const router = await createRouter(ssrContext, config, { store })
 
   // Create Root instance
 
@@ -131,6 +132,7 @@ async function createApp(ssrContext, config = {}) {
     req: ssrContext ? ssrContext.req : undefined,
     res: ssrContext ? ssrContext.res : undefined,
     beforeRenderFns: ssrContext ? ssrContext.beforeRenderFns : undefined,
+    beforeSerializeFns: ssrContext ? ssrContext.beforeSerializeFns : undefined,
     ssrContext
   })
 
@@ -180,16 +182,16 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_7627e5ec === 'function') {
-    await nuxt_plugin_plugin_7627e5ec(app.context, inject)
+  if (typeof nuxt_plugin_plugin_e248e85a === 'function') {
+    await nuxt_plugin_plugin_e248e85a(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_cookieuniversalnuxt_ccac22ac === 'function') {
-    await nuxt_plugin_cookieuniversalnuxt_ccac22ac(app.context, inject)
+  if (typeof nuxt_plugin_cookieuniversalnuxt_42ba4911 === 'function') {
+    await nuxt_plugin_cookieuniversalnuxt_42ba4911(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_063ad9fc === 'function') {
-    await nuxt_plugin_axios_063ad9fc(app.context, inject)
+  if (typeof nuxt_plugin_axios_72aa9b69 === 'function') {
+    await nuxt_plugin_axios_72aa9b69(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_googleAnalytics_728a9100 === 'function') {

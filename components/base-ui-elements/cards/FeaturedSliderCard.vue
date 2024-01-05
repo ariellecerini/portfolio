@@ -8,7 +8,7 @@
                 <img alt="proj-img" :src="`${post.attributes.image}`"/>
               </div>
 
-            <div class="row padding-base">
+            <div class="row padding-base info-section">
                 <div class="col-xs-6 col-sm-6 col-md-12 col-lg-12" style="padding-bottom: 0px; padding-top: 0px;">
                     <p id="p_project-name" class="project-name margin-none">{{ post.attributes.title }}</p>
                   </div>
@@ -60,6 +60,7 @@ export default {
 .img-holder > img{
     border-radius: $space-s $space-s 0 0;
     overflow: hide; 
+    display: flex; 
 }
 
 img{
@@ -67,7 +68,14 @@ img{
   bottom: 0;
 }
 
+.project-name{
+  font-weight: 600;
+  font-size: 1.25rem;
+}
 
+.info-section{
+  border-top: 3px solid $color-tertiary;
+}
 
 
 </style>

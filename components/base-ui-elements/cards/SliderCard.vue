@@ -8,7 +8,7 @@
                 <img alt="proj-img" :src="`${post.attributes.image}`"/>
               </div>
 
-            <div class="row padding-base">
+            <div class="row padding-base info-section">
                 <div class="col-xs-6 col-sm-6 col-md-12 col-lg-12" style="padding-bottom: 0px; padding-top: 0px;">
                     <p id="p_project-name" class="project-name margin-none">{{ post.attributes.title }}</p>
                   </div>

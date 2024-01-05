@@ -1,3 +1,5 @@
+
+
 $color-primary: rgba(1,42,77,1);
 $color-tertiary: rgba(211,227,10,1);
 $color-secondary: rgba(255,145,149,1);
@@ -54,6 +56,8 @@ $color-documentation-primary-primary-40: rgba(177,209,229,1);
 $color-documentation-primary-primary-30: rgba(206,228,242,1);
 $color-documentation-primary-primary-20: rgba(235,247,255,1);
 $color-documentation-primary-primary-10: rgba(242,250,255,1);
+
+ 
 @mixin text-style-heading-1-text {
 	font-size:1.875rem;
 	font-family:"Open Sans";
