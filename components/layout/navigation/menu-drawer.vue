@@ -1,6 +1,5 @@
 <template> 
         <div id="navbar" style="visibility: hidden;" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 menu-drawer" > 
-                <div id="navbar" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 menu-content">
                         <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter">
                                         <p class="heading2 padding-bottom-base" style="font-size: 1.65rem;">Arielle Cerini, MFA, PhD</p>
@@ -50,7 +49,6 @@
                                                 </div>
                                         </div>
                                 </div>
-                        </div>
                 </div>
 </template>
 <script> 
@@ -70,11 +68,12 @@ export default {
                border-right: 24px solid $color-primary-tints-10;
                margin-top: 0;
                display: unset; 
-                background: white;
-                z-index: 100; 
-                right:0;
-
-
+               background: white;
+               z-index: 100; 
+               right:0;
+               max-height: 85vh; 
+               overflow-y: scroll;
+               padding: 2.3em;
         }
         .nav-link{
                 padding: 4px; 
