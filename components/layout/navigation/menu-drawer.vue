@@ -72,6 +72,7 @@ export default {
                display: unset; 
                 background: white;
                 z-index: 100; 
+                right:0;
 
 
         }

@@ -128,15 +128,12 @@ export default {
 .future-work-svg{
   width: 75%; 
   max-width: 155px; 
-  position: absolute;
-  bottom: 80px;
-  left: 210px;
 }
 
 
 .about-me-svg{
-    width: 250px;
-    margin-right: 50px;
+    width: 200px;
+    margin-right: 0px;
     margin-left: auto;
     margin-top: 0;
 }

@@ -3,7 +3,6 @@ title: NY Cake Academy Website
 type: portfolio
 client: A series of mockups from the NY Cake Academy site.  
 category: ui-ux-design
-display: featured
 media: Graphic Design | Illustration | Digital Design | Marketing | Content Management 
 dateStart: Summer 2018
 dateEnd: Winter 2020

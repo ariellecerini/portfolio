@@ -1,15 +1,23 @@
 <template>
     <div id="container_page-wrapper" class="row">
-        <div class="myHeader" style="padding: 0;">
-                <div id="container_page-header-content" class="page-header-content">
-                    <div id="container_logo" class="hide-xs hide-sm show-md show-lg" style="padding: 24px 48px;">
-                        <img id="img_logo" class="logo" src="/logo.png" />
-                    </div>
+        <div id="page-header-section" class="display-flex vertical-align-middle full-width align-items-center padding-top-base padding-left-xl" style="position: absolute;">
 
-              <div id="container_menu" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-no-gutter">
-                        <menu-bar/>
+            <div id="left-col" class="full-width col-xs-12 col-sm-12 col-md-8 col-lg-10 col-no-gutter">
+
+                <div id="header-bar" class="display-flex flex-direction-row justify-content-space-between">
+
+                 <div id="container_logo" class="hide-xs hide-s show-md show-lg col-md-2 col-lg-2 col-no-gutter">
+                        <NuxtLink to="/" > <img id="img_logo" class="logo" src="/logo.png" /></NuxtLink>
                         </div>
+
                 </div>
+            </div>
+
+            <div id="right-col" class="hide-xs hide-s show-md show-lg col-md-4 col-lg-2 col-no-gutter">
+                <div id="header-bar" class="display-flex flex-direction-row justify-content-space-between full-width justify-content-flex-end">
+                  <menu-bar/>
+                </div>
+            </div>
         </div>
       
         <main class="row">

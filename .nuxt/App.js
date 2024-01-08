@@ -10,9 +10,10 @@ import '../assets/style.css'
 
 import _07063362 from '../layouts/core-layout.vue'
 import _736b06a7 from '../layouts/hero-layout.vue'
+import _0a278622 from '../layouts/home-layout.vue'
 import _6f6c098b from './layouts/default.vue'
 
-const layouts = { "_core-layout": sanitizeComponent(_07063362),"_hero-layout": sanitizeComponent(_736b06a7),"_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_core-layout": sanitizeComponent(_07063362),"_hero-layout": sanitizeComponent(_736b06a7),"_home-layout": sanitizeComponent(_0a278622),"_default": sanitizeComponent(_6f6c098b) }
 
 export default {
   render (h, props) {

@@ -1,25 +1,39 @@
 <template>
-    <div id="container_page-wrapper" class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter">
-            <section id="section_header" class="row page-header">
-                    <div id="container_logo" class="hide-xs hide-s show-md show-lg col-md-2 col-lg-2 col-no-gutter">
+
+<div id="container_page-wrapper" class="display-flex justify-content-space-between width-100vw flex-direction-column">
+    
+        <div id="page-header-section sub-page" class="sub-page display-flex vertical-align-middle full-width align-items-center padding-top-base padding-left-xl">
+
+            <div id="left-col" class="full-width col-xs-12 col-sm-12 col-md-8 col-lg-10 col-no-gutter">
+
+                <div id="header-bar" class="display-flex flex-direction-row justify-content-space-between">
+
+                  <div id="container_logo" class="hide-xs hide-s show-md show-lg col-md-2 col-lg-2 col-no-gutter">
                         <NuxtLink to="/" > <img id="img_logo" class="logo" src="/logo.png" /></NuxtLink>
                         </div>
-                    <div id="container_menu" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-no-gutter">
-                        <menu-bar/>
-                        </div>
-                </section>
-      
-            <main class="row core">
-                <nuxt />
-                </main>
-
-            <footer>
-                </footer>
-            
+                </div>
             </div>
 
-        </div>    
+            <div id="right-col" class="hide-xs hide-s show-md show-lg col-md-4 col-lg-2 col-no-gutter">
+                <div id="header-bar" class="display-flex flex-direction-row justify-content-space-between full-width justify-content-flex-end">
+                  <menu-bar/>
+                </div>
+            </div>
+        </div>
+
+        <main class="row" style="padding-top: 80px;">
+
+            <nuxt />
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+    </div>    
+
+   
 </template>
 
 <script>
@@ -34,6 +48,8 @@ export default {
 
 
 <style lang="scss" scoped>
+
+
 .page-header{
     padding:0; 
     position: fixed; 
@@ -47,7 +63,6 @@ html{
 
 .logo{
     max-width: 120px;
-    padding: 24px 48px;
 }
 
 main.core{
@@ -56,7 +71,7 @@ main.core{
 div.logo{
   width: 100%; 
   max-width: 120px;
-    padding: 24px 48px;
+  
 }
 
 img.logo{

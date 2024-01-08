@@ -118,22 +118,6 @@ export default {
 
 }
 
-.future-work-svg{
-  width: 75%; 
-  max-width: 155px; 
-
-  bottom: 80px;
-  left: 210px;
-}
-
-
-.about-me-svg{
-    width: 250px;
-    margin-right: 50px;
-    margin-left: auto;
-    margin-top: 0;
-}
-
 img{
   width: 100%;
   bottom: 0;

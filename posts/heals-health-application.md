@@ -10,9 +10,9 @@ dateEnd: May 2021
 position: Design Research Assistant
 role: UI/UX Designer & Front-end Developer
 tools: Adobe XD & Nuxt.JS 
-link: https://xd.adobe.com/embed/c310aa74-64ad-4b84-ac1c-cb387f0b0fd4-9643/
-linkText: "View Prototype"
-linkTitle: Application Prototype
+link: /Projects/case-studies/heals-case-study.pdf
+linkText: "View Case Study"
+linkTitle: Project Overview
 description: Worked to develop a health application prototype with a team of researchers. Application designed for user testing and proof of concWept. Developed and executed design research methodology to aid in UI/UX design development.
 image: /HEALS-blog.png
 tags: Design Research, Prototyping, XD, JS, Mobile Application 

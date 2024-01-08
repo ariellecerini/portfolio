@@ -6,28 +6,35 @@
 
 
 
-      <section id="section_header" class="row hide-xs hide-sm show-md show-lg">
-       <div class="header col-xs-12 col-sm-12 col-md-8 col-lg-10 col-no-gutter" style="height: fit-content;">
-          <div id="container_header-content" class="header-content">
-          
-            <p id="paragraph_hero-text" class="hero-text col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
-              <span id="span_display-text" class="display-text">
-              hello,</span><br/>i'm arielle cerini<span id="span_tertiary-text" class="tertiary-text">.</span>
-            </p>
-            
-            <p id="paragraph_sub-header" class="sub-header col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            Creative Problem Solver 
-            <br/><span id="span_tertiary-text" class="tertiary-text">&</span> Strategic Thinker
-            </p>
+      <section id="section_header" class="row hide-xs hide-sm show-md show-lg display-flex flex-direction-row">
+       <div class="header col-xs-12 col-sm-12 col-md-9 col-lg-10 col-no-gutter display-flex flex-direction-column justify-content-center" >
+          <div id="container_header-content" class="header-content full-width display-flex flex-direction-column" style="padding-left: 6%; gap: 2.4em">
 
-            <div id="container_futurework" class="future-work-svg hide-mobile ">
-                <a href="#section_project-grid"> <img src="/labels/ViewWork_Label.svg"/></a>
+            <div id="header-text-wrapper" style="padding-top: 2.5em;">
+          
+                  <p id="paragraph_hero-text" class="hero-text col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
+                    <span id="span_display-text" class="display-text">
+                    hello,</span><br/>i'm arielle cerini<span id="span_tertiary-text" class="tertiary-text">.</span>
+                  </p>
+                  
+                  <p id="paragraph_sub-header" class="sub-header col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  Creative Problem Solver 
+                  <br/><span id="span_tertiary-text" class="tertiary-text">&</span> Strategic Thinker
+                  </p>
+            </div>
+
+            <div id="header-action">
+
+                  <div id="container_futurework" class="future-work-svg hide-mobile ">
+                      <a href="#section_project-grid"> <img src="/labels/ViewWork_Label.svg"/></a>
+                  </div>
+            
             </div>
 
           </div>
         </div>
 
-        <div class="side-bar-col hide-xs hide-s show-md show-lg col-md-4 col-lg-2 col-no-gutter" style="height: 100vh; justify-content: flex-end; flex-direction: column">
+        <div class="side-bar-col hide-xs hide-s show-md show-lg col-md-3 col-lg-2 col-no-gutter" style="height: 100vh; justify-content: flex-end; flex-direction: column">
           
           <div id="container_about-me" class="about-me-svg">
             <NuxtLink to="/about"><img src="/labels/AboutMe-Label.svg"/></NuxtLink>
@@ -78,7 +85,7 @@ import FeaturedPlain from '../components/base-ui-elements/cards/FeaturedPlain';
 
 
 export default {
-  layout: 'hero-layout',
+  layout: 'home-layout',
   name: 'Home',
   components: {
     PlainCards,
@@ -126,15 +133,7 @@ export default {
   width: 100%; 
   background: rgba(235, 245, 255, 0.61);
   box-shadow: 3px 0px 12px rgba(0, 0, 0, 0.16);
-  display: inline-block; 
   min-height: 100vh;
-}
-
-.header-content{
-  margin-top: 9.0em;
-    margin-left: 14%;
-
-
 }
 
 .home .not-full-width{
@@ -185,15 +184,12 @@ export default {
 .future-work-svg{
   width: 75%; 
   max-width: 155px; 
-
-  bottom: 80px;
-  left: 210px;
 }
 
 
 .about-me-svg{
-    width: 250px;
-    margin-right: 50px;
+    width: 200px;
+    margin-right: 0px;
     margin-left: auto;
     margin-top: 0;
 }

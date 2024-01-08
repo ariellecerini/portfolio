@@ -43,6 +43,10 @@ export default {
 
 }
 
+.project-details{
+    z-index: -1px; 
+    position: relative;
+}
 
 
 </style>
