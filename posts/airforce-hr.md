@@ -16,13 +16,12 @@ dateStart: June 2021
 dateEnd: November 2022
 featuredImage: /airforce-hr.png
 description: Functioned as UX Manager and Platform Strategist for an enterprise platform. Developed design thinking toolkit and championed the movement of design as part of development teams. Built out design operation processes, such as file management, onboarding, and interviewing. Was responsible for building out Information Architecture and Project Road Map for the Design System.
-
-cModules: {
+cModules: {  
     moduleOne: { 
                 item: pdf, 
                 header: "Platform Strategy",
-                class: "col-xs-12 col-sm-12 col-md-6 col-lg-6",
-                image: "Projects/case-studies/myvector-case-study.pdf",
+                class: "col-xs-12 col-sm-12 col-md-12 col-lg-12",
+                image: "/Projects/case-studies/myvector-case-study.pdf",
                 style: ""
             }
         }

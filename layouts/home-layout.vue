@@ -1,7 +1,7 @@
 <template>
     <div id="container_page-wrapper" class="display-flex justify-content-space-between width-100vw flex-direction-column">
     
-        <div id="page-header-section" class="home-header display-flex vertical-align-middle full-width align-items-center padding-top-base padding-left-xl">
+        <div id="page-header-section" class="home-header display-flex vertical-align-middle full-width align-items-center" style="z-index: 1;">
 
             <div id="left-col" class="full-width col-xs-12 col-sm-12 col-md-8 col-lg-10 col-no-gutter">
 
