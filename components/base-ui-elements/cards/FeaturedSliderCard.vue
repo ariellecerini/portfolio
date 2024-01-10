@@ -59,8 +59,10 @@ export default {
 
 .img-holder > img{
     border-radius: $space-s $space-s 0 0;
-    overflow: hide; 
+    overflow: hidden; 
     display: flex; 
+    background: $color-neutral-tints-0; 
+
 }
 
 img{
@@ -75,6 +77,7 @@ img{
 
 .info-section{
   border-top: 3px solid $color-tertiary;
+  background: $color-neutral-tints-0;
 }
 
 

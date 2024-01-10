@@ -2,7 +2,7 @@
 
 
 
-    <div id="container_slider-card" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <div id="container_slider-card" class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
         <div id="container_card-wrapper" class="card-wrapper">
             <div id="container_img-holder" class="img-holder">
                 <img alt="proj-img" :src="`${post.attributes.image}`"/>
@@ -54,12 +54,13 @@ export default {
     box-shadow: 0px 0px 7px 0px #00000029;
     border: solid 1px $color-neutral-tints-10;
     padding: 0;
-    overflow: hide;
+    overflow: hidden;
 }
 
 .img-holder > img{
     border-radius: $space-s $space-s 0 0;
-    overflow: hide; 
+    overflow: hidden; 
+    background: $color-neutral-tints-0; 
 }
 
 img{
