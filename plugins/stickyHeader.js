@@ -22,13 +22,11 @@ function scrollFunction() {
   
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("page-header-section").classList.add("sub-page");
-    document.getElementById("page-header-section").classList.remove("home-header");
 
     console.log("not top");
   } else {
     
     document.getElementById("page-header-section").classList.remove("sub-page");
-    document.getElementById("page-header-section").classList.add("home-header");
      console.log("top");
     
   }

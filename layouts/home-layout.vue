@@ -1,9 +1,9 @@
 <template>
-    <div id="container_page-wrapper" class="display-flex justify-content-space-between width-100vw flex-direction-column">
+    <div id="container_page-wrapper" class="homepage full-width row col-lg-12 col-md-12 col-sm-12 col-xs-12 col-no-gutter">
     
-        <div id="page-header-section" class="home-header display-flex vertical-align-middle full-width align-items-center" style="z-index: 1;">
+        <div id="page-header-section" class="full-width row col-lg-12 col-md-12 col-sm-12 col-xs-12" style="z-index: 1;">
 
-            <div id="left-col" class="full-width col-xs-12 col-sm-12 col-md-8 col-lg-10 col-no-gutter">
+            <div id="left-col" class="col-lg-10 col-md-10 col-sm-10 col-xs-10" style="display: flex; flex-direction: column; justify-content: center;">
 
                 <div id="header-bar" class="display-flex flex-direction-row justify-content-space-between">
 
@@ -14,7 +14,7 @@
                 </div>
             </div>
 
-            <div id="right-col" class="hide-xs hide-s show-md show-lg col-md-4 col-lg-2 col-no-gutter">
+            <div id="right-col" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-no-gutter">
                 <div id="header-bar" class="display-flex flex-direction-row justify-content-space-between full-width justify-content-flex-end">
                   <menu-bar/>
                 </div>
@@ -87,6 +87,16 @@ main{
 .home-header{
   position: absolute; 
 }
+
+.homepage{
+  background-color: #FEFFF2;
+   background-image: url('/site-graphics/background-vector.png');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position-x: 30vw;
+  background-position-y: -30vh;
+}
+
 </style>
 
 

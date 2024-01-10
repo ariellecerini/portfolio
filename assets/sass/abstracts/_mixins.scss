@@ -1,5 +1,7 @@
-@import 'mixins/mixins-spacing';
+@import 'mixins/spacing-mixins';
 @import "./variables/text";
+@import 'mixins/grid-mixins';
+@import 'mixins/gutter-mixins';
 
 @mixin border-box {
     -webkit-box-sizing: border-box;
