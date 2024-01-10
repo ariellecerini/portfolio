@@ -5,8 +5,7 @@
 @import 'abstracts/mixins';
 @import 'abstracts/functions';
 
-/* VENDORS STYLING */ 
-@import 'vendors/sass-flexbox/scss/main.scss';
+
 
 /* BASE STYLING */ 
 @import 'base/reset';
@@ -15,6 +14,7 @@
 @import 'base/backgrounds';
 @import 'base/spacing';
 @import 'base/box-shadow';
+@import 'base/grid';
 
 
 
