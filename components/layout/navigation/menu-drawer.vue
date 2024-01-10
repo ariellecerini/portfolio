@@ -1,17 +1,17 @@
 <template> 
         <div id="navbar" style="visibility: hidden;" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 menu-drawer" > 
-                        <div class="row">
+                        <div class="row" style="padding-bottom: 16px;">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter">
-                                        <p class="heading2 padding-bottom-base" style="font-size: 1.65rem;">Arielle Cerini, MFA, PhD</p>
+                                        <p style="font-size: 1.65rem; padding-bottom: 8px;">Arielle Cerini, MFA, PhD</p>
                                         <div class="subtitle-banner"> 
                                                 <p class="smallest-body-text bold">Creative Problem Solver & Strategic Thinker</p>
                                                 </div> 
                                         </div>
                                 </div>
-                        <div class="row">
+                        <div class="row padding-bottom-base" >
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-top-md">
                                         <p class="section-title">Design Portfolio</p>
-                                        <div class="link-items row padding-top-base">
+                                        <div class="link-items row" style="padding-top: 8px;">
                                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><NuxtLink to="/portfolio/ui-ux-design" class="nav-link">UI/UX Design</NuxtLink></div>
                                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><NuxtLink to="/portfolio/communications-design" class="nav-link">Communications Design</NuxtLink></div>
                                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><NuxtLink to="/portfolio/design-research" class="nav-link">Design Research</NuxtLink></div>
@@ -20,29 +20,29 @@
                                                 </div>
                                         </div> 
                                 </div>
-                        <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-top-base">
+                        <div class="row padding-bottom-base">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter">
                                         <p class="section-title">Web Applications</p>
-                                        <div class="link-items row padding-top-base">
+                                        <div class="link-items row" style="padding-top: 8px;">
                                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><a href="" class="nav-link">Color Alchemy</a></div>
                                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><a href="https://digitalpenmanship.app" class="nav-link">Digital Penmanship</a></div>
                                                 </div>
                                         </div>
                                 </div>
-                        <div class="row">
+                        <div class="row padding-bottom-base">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-top-base">
                                         <p class="section-title">Social Media</p>
-                                        <div class="link-items row padding-top-base">
+                                        <div class="link-items row" style="padding-top: 8px;">
                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"> <a href="https://www.instagram.com/ariellecerini/" target="_blank" class="nav-link">Instagram</a></div>
                                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><a href="https://www.linkedin.com/in/arielle-cerini-mfa-phd-66943583/" target="_blank" class="nav-link">Linkedin</a></div>
                                                 </div>
                                         </div>
                                 </div>
 
-                        <div class="row">
+                        <div class="row padding-bottom-base">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-top-base">
                                         <p class="section-title">Application Materials</p>
-                                        <div class="link-items row padding-top-base">
+                                        <div class="link-items row" style="padding-top: 8px;">
                                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><NuxtLink to="/Arielle_Cerini.pdf" target="_blank" class="nav-link">Resume</NuxtLink></div>
                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"> <NuxtLink to="/HEALS-Case-Study.pdf" target="_blank" class="nav-link">HEALS Case Study</NuxtLink></div>
                                                 
