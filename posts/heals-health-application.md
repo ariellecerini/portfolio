@@ -22,7 +22,7 @@ cModules: {
     moduleOne: {
         item: text, 
         header: "Design Goal",
-        class: "col-xs-12 col-sm-12 col-md-6 col-lg-12 backdrop-secondary",
+        class: "col-xs-12 col-sm-12 col-md-12 col-lg-12 backdrop-secondary",
         style: "padding: 40px 56px; border-radius: 16px;",
 
         inner: {     
@@ -74,7 +74,7 @@ cModules: {
      moduleTwo: {
         item: text, 
         header: "User Research",
-        class: "col-xs-12 col-sm-12 col-md-6 col-lg-12",
+        class: "col-xs-12 col-sm-12 col-md-12 col-lg-12",
         style: "",
 
         inner: {     
@@ -274,7 +274,7 @@ cModules: {
     moduleSix: { 
         item: image, 
         header: "Personalized Health Knowledge Graph",
-        class: "col-xs-12 col-sm-12 col-md-6 col-lg-12",
+        class: "col-xs-12 col-sm-12 col-md-12 col-lg-12",
         image: "/projects/heals/knowledge-graph.svg",
         style: ""
     },
@@ -282,7 +282,7 @@ cModules: {
     moduleSeven: { 
         item: image, 
         header: "Information Diagram",
-        class: "col-xs-12 col-sm-12 col-md-6 col-lg-12",
+        class: "col-xs-12 col-sm-12 col-md-12 col-lg-12",
         image: "/projects/heals/information-diagram.svg",
         style: ""
     },

@@ -34206,3 +34206,64 @@ npm ERR!     /root/.npm/_logs/2024-01-08T07_54_13_414Z-debug.log
 
  WARN  Cannot stringify POJOs with symbolic keys Symbol(Symbol.toStringTag)
 
+
+> acerinidesigns@1.0.0 start /var/www/acerinidesigns.com
+> nuxt start
+
+
+ WARN  mode option is deprecated. You can safely remove it from nuxt.config
+
+ℹ Listening on: http://172.104.217.73:8000/
+
+ WARN  Cannot stringify POJOs with symbolic keys Symbol(Symbol.toStringTag)
+
+
+ WARN  Cannot stringify POJOs with symbolic keys Symbol(Symbol.toStringTag)
+
+
+ WARN  Cannot stringify POJOs with symbolic keys Symbol(Symbol.toStringTag)
+
+
+> acerinidesigns@1.0.0 start /var/www/acerinidesigns.com
+> nuxt start
+
+
+ WARN  mode option is deprecated. You can safely remove it from nuxt.config
+
+
+ FATAL  Address 172.104.217.73:8000 is already in use.
+
+  at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+  at listenInCluster (net.js:1379:12)
+  at doListen (net.js:1516:7)
+  at processTicksAndRejections (internal/process/task_queues.js:83:21)
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! acerinidesigns@1.0.0 start: `nuxt start`
+npm ERR! Exit status 2
+npm ERR! 
+npm ERR! Failed at the acerinidesigns@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2024-01-28T06_31_13_862Z-debug.log
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! acerinidesigns@1.0.0 start: `nuxt start`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the acerinidesigns@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2024-01-28T06_31_20_087Z-debug.log
+
+> acerinidesigns@1.0.0 start /var/www/acerinidesigns.com
+> nuxt start
+
+
+ WARN  mode option is deprecated. You can safely remove it from nuxt.config
+
+ℹ Listening on: http://172.104.217.73:8000/

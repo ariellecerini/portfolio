@@ -2,92 +2,92 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "/Users/ariellecerini/portfolio/pages/about.vue",
+    "component": "/var/www/acerinidesigns.com/pages/about.vue",
     "chunkName": "pages/about",
-    "_name": "_85e0f260"
+    "_name": "_79d68257"
   },
   {
     "name": "portfolio",
     "path": "/portfolio",
-    "component": "/Users/ariellecerini/portfolio/pages/portfolio/index.vue",
+    "component": "/var/www/acerinidesigns.com/pages/portfolio/index.vue",
     "chunkName": "pages/portfolio/index",
-    "_name": "_0ad11064"
+    "_name": "_908a12d6"
   },
   {
     "name": "test",
     "path": "/test",
-    "component": "/Users/ariellecerini/portfolio/pages/test.vue",
+    "component": "/var/www/acerinidesigns.com/pages/test.vue",
     "chunkName": "pages/test",
-    "_name": "_03dfe4c2"
+    "_name": "_ef6ff590"
   },
   {
     "name": "portfolio-communications-design",
     "path": "/portfolio/communications-design",
-    "component": "/Users/ariellecerini/portfolio/pages/portfolio/communications-design/index.vue",
+    "component": "/var/www/acerinidesigns.com/pages/portfolio/communications-design/index.vue",
     "chunkName": "pages/portfolio/communications-design/index",
-    "_name": "_5225e62d"
+    "_name": "_590505b4"
   },
   {
     "name": "portfolio-design-research",
     "path": "/portfolio/design-research",
-    "component": "/Users/ariellecerini/portfolio/pages/portfolio/design-research/index.vue",
+    "component": "/var/www/acerinidesigns.com/pages/portfolio/design-research/index.vue",
     "chunkName": "pages/portfolio/design-research/index",
-    "_name": "_c04cce6e"
+    "_name": "_064ca990"
   },
   {
     "name": "portfolio-ui-ux-design",
     "path": "/portfolio/ui-ux-design",
-    "component": "/Users/ariellecerini/portfolio/pages/portfolio/ui-ux-design/index.vue",
+    "component": "/var/www/acerinidesigns.com/pages/portfolio/ui-ux-design/index.vue",
     "chunkName": "pages/portfolio/ui-ux-design/index",
-    "_name": "_5166fda6"
+    "_name": "_01c7fa3f"
   },
   {
     "name": "portfolio-web-design",
     "path": "/portfolio/web-design",
-    "component": "/Users/ariellecerini/portfolio/pages/portfolio/web-design/index.vue",
+    "component": "/var/www/acerinidesigns.com/pages/portfolio/web-design/index.vue",
     "chunkName": "pages/portfolio/web-design/index",
-    "_name": "_3545f664"
+    "_name": "_0ed653a7"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/ariellecerini/portfolio/pages/index.vue",
+    "component": "/var/www/acerinidesigns.com/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_46713cd6"
+    "_name": "_cce345c8"
   },
   {
     "name": "portfolio-communications-design-slug",
     "path": "/portfolio/communications-design/:slug?",
-    "component": "/Users/ariellecerini/portfolio/pages/portfolio/communications-design/_slug.vue",
+    "component": "/var/www/acerinidesigns.com/pages/portfolio/communications-design/_slug.vue",
     "chunkName": "pages/portfolio/communications-design/_slug",
-    "_name": "_506f44e5"
+    "_name": "_574e646c"
   },
   {
     "name": "portfolio-design-research-slug",
     "path": "/portfolio/design-research/:slug?",
-    "component": "/Users/ariellecerini/portfolio/pages/portfolio/design-research/_slug.vue",
+    "component": "/var/www/acerinidesigns.com/pages/portfolio/design-research/_slug.vue",
     "chunkName": "pages/portfolio/design-research/_slug",
-    "_name": "_c3ba10fe"
+    "_name": "_04960848"
   },
   {
     "name": "portfolio-ui-ux-design-slug",
     "path": "/portfolio/ui-ux-design/:slug?",
-    "component": "/Users/ariellecerini/portfolio/pages/portfolio/ui-ux-design/_slug.vue",
+    "component": "/var/www/acerinidesigns.com/pages/portfolio/ui-ux-design/_slug.vue",
     "chunkName": "pages/portfolio/ui-ux-design/_slug",
-    "_name": "_4fb05c5e"
+    "_name": "_001158f7"
   },
   {
     "name": "portfolio-web-design-slug",
     "path": "/portfolio/web-design/:slug?",
-    "component": "/Users/ariellecerini/portfolio/pages/portfolio/web-design/_slug.vue",
+    "component": "/var/www/acerinidesigns.com/pages/portfolio/web-design/_slug.vue",
     "chunkName": "pages/portfolio/web-design/_slug",
-    "_name": "_38b338f4"
+    "_name": "_0d1fb25f"
   },
   {
     "name": "portfolio-slug",
     "path": "/portfolio/:slug",
-    "component": "/Users/ariellecerini/portfolio/pages/portfolio/_slug.vue",
+    "component": "/var/www/acerinidesigns.com/pages/portfolio/_slug.vue",
     "chunkName": "pages/portfolio/_slug",
-    "_name": "_0e3e52f4"
+    "_name": "_93f75566"
   }
 ]
