@@ -16,17 +16,42 @@ button{
     font-variant-caps: small-caps;
     position: relative;
     background-blend-mode: soft-light;
+    cursor: pointer;
 }
 
 button:hover{
     background: rgb(254 214 216 / 32%);
     box-shadow: 0px 0px 8px 0px #00000029;
-
-   
 }
 
+button.dark{
+    background-color: $color-secondary-tints-80;
+    border-radius: 100px;
+    padding: 8px 24px;
+}
 
-button:selected{
+button.dark:hover{
+    background-color: $color-secondary-tints-60;
+}
+
+button.dark:active{
+    background-color: $color-secondary;
+}
+
+button.dark.selected{
+    background-color: $color-primary-tints-80;
+    cursor:default;
+}
+
+// button.dark.selected:hover{
+//     background-color: $color-primary-tints-60;
+// }
+
+// button.dark.selected:active{
+//     background-color: $color-primary;
+// }
+
+button.selected{
   box-shadow: 0px 0px 5px 0px #0000002E;
 }
 

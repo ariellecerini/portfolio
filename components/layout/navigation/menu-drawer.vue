@@ -44,7 +44,7 @@
                                         <p class="section-title">Application Materials</p>
                                         <div class="link-items row" style="padding-top: 8px;">
                                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><NuxtLink to="/Arielle_Cerini.pdf" target="_blank" class="nav-link">Resume</NuxtLink></div>
-                                               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"> <NuxtLink to="/HEALS-Case-Study.pdf" target="_blank" class="nav-link">HEALS Case Study</NuxtLink></div>
+                                               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"> <NuxtLink to="/projects/heals/case-study.pdf" target="_blank" class="nav-link">HEALS Case Study</NuxtLink></div>
                                                 
                                                 </div>
                                         </div>

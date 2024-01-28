@@ -11,8 +11,17 @@
   "BaseUiElementsSlideout": {
     "description": "Auto imported from components/base-ui-elements/slideout.vue"
   },
-  "BaseUiElementsContainersCircleContainer": {
-    "description": "Auto imported from components/base-ui-elements/containers/circle-container.vue"
+  "LayoutNavigationMenuBar": {
+    "description": "Auto imported from components/layout/navigation/menu-bar.vue"
+  },
+  "LayoutNavigationMenuDrawer": {
+    "description": "Auto imported from components/layout/navigation/menu-drawer.vue"
+  },
+  "LayoutNavigationMenuIconButton": {
+    "description": "Auto imported from components/layout/navigation/menu-icon-button.vue"
+  },
+  "LayoutNavigationNavbar": {
+    "description": "Auto imported from components/layout/navigation/navbar.vue"
   },
   "BaseUiElementsCardsFeaturedPlain": {
     "description": "Auto imported from components/base-ui-elements/cards/FeaturedPlain.vue"
@@ -35,20 +44,14 @@
   "BaseUiElementsCoreButtons": {
     "description": "Auto imported from components/base-ui-elements/core/buttons.vue"
   },
-  "LayoutNavigationMenuBar": {
-    "description": "Auto imported from components/layout/navigation/menu-bar.vue"
-  },
-  "LayoutNavigationMenuDrawer": {
-    "description": "Auto imported from components/layout/navigation/menu-drawer.vue"
-  },
-  "LayoutNavigationMenuIconButton": {
-    "description": "Auto imported from components/layout/navigation/menu-icon-button.vue"
-  },
-  "LayoutNavigationNavbar": {
-    "description": "Auto imported from components/layout/navigation/navbar.vue"
+  "BaseUiElementsContainersCircleContainer": {
+    "description": "Auto imported from components/base-ui-elements/containers/circle-container.vue"
   },
   "BaseUiElementsInformationTagsProjectType": {
     "description": "Auto imported from components/base-ui-elements/Information/Tags/ProjectType.vue"
+  },
+  "BaseUiElementsCoreTextH1Text": {
+    "description": "Auto imported from components/base-ui-elements/core/text/h1-text.vue"
   },
   "BaseUiElementsThemePatternsProjectPagesPersona": {
     "description": "Auto imported from components/base-ui-elements/theme-patterns/project-pages/Persona.vue"
@@ -70,8 +73,5 @@
   },
   "BaseUiElementsThemePatternsProjectTitle": {
     "description": "Auto imported from components/base-ui-elements/theme-patterns/project-pages/ProjectTitle.vue"
-  },
-  "BaseUiElementsCoreTextH1Text": {
-    "description": "Auto imported from components/base-ui-elements/core/text/h1-text.vue"
   }
 }

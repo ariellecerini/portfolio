@@ -10,7 +10,7 @@ tools: Adobe Illustrator
 media: Graphic Design | Icons
 dateStart: Winter 2020
 dateEnd: Winter 2020
-image: /school-icons.png
+image: /projects/scholastic-icons/thumbnail.png
 tags: Graphic Design, Branding, Icons
 cModules: {
 
@@ -18,7 +18,7 @@ cModules: {
         item: image, 
         header: ,
         class: "col-xs-6 col-sm-6 col-md-4 col-lg-4",
-        image: "/Projects/icons/schol-asset1.png",
+        image: "/projects/scholastic-icons/schol-asset1.png",
         style: ""
     },
 
@@ -26,7 +26,7 @@ cModules: {
         item: image, 
         header: ,
         class: "col-xs-6 col-sm-6 col-md-4 col-lg-4",
-        image: "/Projects/icons/schol-asset2.png",
+        image: "/projects/scholastic-icons/schol-asset2.png",
         style: ""
     },
 
@@ -34,14 +34,14 @@ cModules: {
         item: image, 
         header: ,
         class: "col-xs-6 col-sm-6 col-md-4 col-lg-4",
-        image: "/Projects/icons/schol-asset4.png",
+        image: "/projects/scholastic-icons/schol-asset4.png",
         style: ""
     },
     moduleFour: { 
         item: image, 
         header: ,
         class: "col-xs-6 col-sm-6 col-md-4 col-lg-4",
-        image: "/Projects/icons/schol-asset5.png",
+        image: "/projects/scholastic-icons/schol-asset5.png",
         style: ""
     },
 
@@ -49,7 +49,7 @@ cModules: {
         item: image, 
         header: ,
         class: "col-xs-6 col-sm-6 col-md-4 col-lg-4",
-        image: "/Projects/icons/schol-asset3.png",
+        image: "/projects/scholastic-icons/schol-asset3.png",
         style: ""
     },
    

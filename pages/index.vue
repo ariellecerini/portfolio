@@ -7,8 +7,10 @@
 
 
       <section id="section_header" class="row full-width col-lg-12 col-md-12 col-sm-12 col-xs-12">
-       <div class="header row full-width col-lg-12 col-md-12 col-sm-12 col-xs-12" >
-          <div id="container_header-content" class="header-content full-width col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+       <div class="header row full-width col-lg-10 col-md-12 col-sm-12 col-xs-12" >
+          <div id="container_header-content" class="header-content full-width col-lg-10 col-md-12 col-sm-12 col-xs-12" >
+
+         
 
             <div id="header-text-wrapper" class="header-content full-width row col-lg-12 col-md-12 col-sm-12 col-xs-12 col-no-gutter" style="padding-top: 1.5em;">
           
@@ -34,17 +36,34 @@
           </div>
         </div>
         </section>  
-    
-      <section id="section_project-grid" class="not-full-width">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><h2>Featured Projects</h2></div>
-          <featured-plain prefix="portfolo" :slug="slug" :posts="features" :featured="true"></featured-plain>
-      </section>
 
-      <section id="section_project-grid" class="not-full-width hide-mobile">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><h2>All Work</h2></div>
+      <section id="section_project-grid" class="not-full-width col-xs-12 col-sm-12 col-md-12 col-lg-10">
 
-          <plain-cards prefix="portfolo" :slug="slug" :posts="posts"></plain-cards>
+          
+
+        <hr/>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+              <h1>All Work</h1>
+              </div>
+           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="display: flex; gap: 8px">
+                <button id="filter-all" @click="handleFilter('all', {posts})" class="dark selected">All</button>
+                <button id="filter-design-system" @click="handleFilter('design system')" class="dark">Design Systems</button>
+                <button id="filter-ux" @click="handleFilter('ux design')" class="dark">UX Design</button>
+                </div>
+           
+
+
+            <plain-cards prefix="portfolo" :slug="slug" :posts="posts"></plain-cards>
+
+          
+
+          </div>
+
+
       </section>
+      
   </div>
 </template>
 
@@ -53,6 +72,12 @@
 import PlainCards from '../components/base-ui-elements/cards/PlainCards';
 import FeaturedPlain from '../components/base-ui-elements/cards/FeaturedPlain';
 
+let typeFilterValue = 'portfolio'; 
+let tagsFilterValue = 'design system'; 
+let filterValues = {
+  tag: ''
+}
+var renderData; 
 
 export default {
   layout: 'home-layout',
@@ -71,14 +96,14 @@ export default {
           const [, slug] = key.match(/\/(.+)\.md$/)
           return Object.assign(resolve(key), { slug })
         })
-        .filter((post) => post.attributes.type == 'portfolio')
+        .filter((post) => post.attributes.type == typeFilterValue)
 
       const featured = imports.filter((post) => post.attributes.display == 'featured')
 
-
       return {
         posts: imports,
-        features: featured
+        features: featured,
+        postStores: imports
       }
     }, 
     data() {
@@ -87,12 +112,44 @@ export default {
       }
     },
     methods: {
-  
-   
+      handleFilter: function (tags) {
+        let renderData=[];
+        let i = 0; 
+      
+        if (tags == 'all'){
+          this.posts = this.postStores;
+          document.getElementById("filter-all").classList.add("selected");
+          document.getElementById("filter-ux").classList.remove("selected");
+          document.getElementById("filter-design-system").classList.remove("selected");
+        } else {
+            document.getElementById("filter-all").classList.remove("selected");
 
+            this.postStores.forEach((element) => {
+              let check = 0; 
+              let val = element.attributes.tags;
+              if (val.includes(tags)) {
+                console.log(val); 
+                renderData[i] = element; 
+                i++
+              }else {};
+              })
+            this.posts = renderData;
 
+            if (tags == 'ux design'){
+              document.getElementById("filter-ux").classList.add("selected");
+              document.getElementById("filter-all").classList.remove("selected");
+              document.getElementById("filter-design-system").classList.remove("selected");
+            } else {
+              document.getElementById("filter-design-system").classList.add("selected");
+              document.getElementById("filter-ux").classList.remove("selected");
+              document.getElementById("filter-all").classList.remove("selected");
+            }
+          }
+        
+      }
     }
-  }
+    
+}
 </script>
 
 
@@ -164,5 +221,10 @@ img{
   width: 100%;
   bottom: 0;
 }
+
+hr{
+  border: solid 3px $color-tertiary;
+}
+
 
 </style>

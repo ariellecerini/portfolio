@@ -6,8 +6,8 @@ position: Freelance Designer
 client: Cerini & Associates
 role: Web Designer and Developer
 tools: Wordpress
-image: /cerini-thumbnail.png
-featuredImage: /cerini-02.png
+image: /projects/cerini-and-associates/thumbnail.png
+featuredImage: /projects/cerini-and-associates/featured-image.png
 tags: freelance work, web-design
 url: http://www.ceriniandassociates.com
 ---

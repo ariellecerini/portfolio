@@ -6,8 +6,8 @@ client: Cerinic Apparel
 position: Freelance Designer
 role: Web Designer and Developer
 tools: Wordpress
-image: /cerinic-thumbnail.png
-featuredImage: /cerinic-dev.png
+image: /projects/cerinic/thumbnail.png
+featuredImage: /projects/cerinic/featured-image.png
 tags: freelance work, web-design
 url: http://www.cerinic.com
 

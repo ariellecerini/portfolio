@@ -14,8 +14,8 @@ link: https://lucid.app/documents/view/b6fb047f-72b2-4068-b73e-3d3a4de55eee
 linkText: View Style Guide IA 
 linkTitle: Information Architecture
 description: A fully themeable design system that was initially created for an enterprise platform. Went on to be expanded upon so that it could be used by any project that the company took on.
-image: /design-system.png
-tags: Design System
+image: /projects/zenith-design-system/thumbnail.png
+tags: design system
 featuredImage: 
 cModules: {
     moduleOne: { 

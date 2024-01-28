@@ -9,14 +9,14 @@ category: communications-design
 media: Graphic Design | Illustration | Digital Design | Marketing | Content Management 
 dateStart: Winter 2016
 dateEnd: Winter 2020
-image: /giftcard-thumb.png
+image: /projects/ny-cake/thumbnail.png
 tags: Graphic Design, Illustration, Digital Design, Marketing, Content Management 
 cModules: {
      moduleOne: { 
         item: image, 
         header: ,
         class: "col-xs-12 col-sm-12 col-md-5 col-lg-5 card-mockup",
-        image: "/Projects/NYCake/nyc-show_front.png",
+        image: "/projects/ny-cake/nyc-show_front.png",
         style: "margin-left: auto;"
     },
 
@@ -24,7 +24,7 @@ cModules: {
           item: image, 
         header: ,
         class: "col-xs-12 col-sm-12 col-md-5 col-lg-5 card-mockup",
-        image: "/Projects/NYCake/nyc-show_back.png",
+        image: "/projects/ny-cake/nyc-show_back.png",
         style: "margin-right: auto;"
     },
 
@@ -32,14 +32,14 @@ cModules: {
         item: image, 
         header: ,
         class: "col-xs-12 col-sm-12 col-md-5 col-lg-5 card-mockup",
-        image: "/Projects/NYCake/nyc-cafe_table-sign_front.png",
+        image: "/projects/ny-cake/nyc-cafe_table-sign_front.png",
         style: "margin-left: auto;"
     },
     moduleFour: { 
         item: image, 
         header: ,
         class: "col-xs-12 col-sm-12 col-md-5 col-lg-5 card-mockup",
-        image: "/Projects/NYCake/nyc-cafe_table-sign_back.png",
+        image: "/projects/ny-cake/nyc-cafe_table-sign_back.png",
         style: "margin-right: auto;"
     },
 
@@ -47,14 +47,14 @@ cModules: {
        item: image, 
         header: ,
         class: "col-xs-12 col-sm-12 col-md-5 col-lg-5 card-mockup",
-        image: "/Projects/NYCake/nyc-cafe_social-flyer_front.png",
+        image: "/projects/ny-cake/nyc-cafe_social-flyer_front.png",
         style: "margin-left: auto;"
     },
     moduleSix: { 
         item: image, 
         header: ,
         class: "col-xs-12 col-sm-12 col-md-5 col-lg-5 card-mockup",
-        image: "/Projects/NYCake/nyc-cafe_social-flyer_back.png",
+        image: "/projects/ny-cake/nyc-cafe_social-flyer_back.png",
         style: "margin-right: auto;"
     },
 
@@ -62,7 +62,7 @@ cModules: {
           item: image, 
         header: ,
         class: "col-xs-12 col-sm-12 col-md-5 col-lg-5 card-mockup",
-        image: "/Projects/NYCake/nyc-academy_email-header_01.png",
+        image: "/projects/ny-cake/nyc-academy_email-header_01.png",
         style: "margin-left: auto;"
     },
 
@@ -70,14 +70,14 @@ cModules: {
         item: image, 
         header: ,
         class: "col-xs-12 col-sm-12 col-md-5 col-lg-5 card-mockup",
-        image: "/Projects/NYCake/nyc-academy_email-header_02.png",
+        image: "/projects/ny-cake/nyc-academy_email-header_02.png",
         style: "margin-right: auto;"
     },
     moduleNine: { 
         item: image, 
         header: ,
         class: "col-xs-12 col-sm-12 col-md-5 col-lg-5 card-mockup",
-        image: "/Projects/NYCake/nyc-academy_email-header_03.png",
+        image: "/projects/ny-cake/nyc-academy_email-header_03.png",
         style: "margin: auto;"
     }
 }

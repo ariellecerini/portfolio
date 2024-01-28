@@ -6,8 +6,8 @@ client: Prime Shine Mobile
 position: Freelance Designer
 role: Web Designer and Developer
 tools: Wordpress
-image: /prime-thumbnail.png
-featuredImage: /primeshine01.png
+image: /projects/prime-shine-mobile/thumbnail.png
+featuredImage: /projects/prime-shine-mobile/featured-image.png
 tags: freelance work, web-design
 url: http://www.primeshinemobile.com
 ---

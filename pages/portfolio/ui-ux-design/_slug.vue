@@ -47,11 +47,12 @@
 
                 <div class="not-full-width row">
                 
-                        <div class="container page-content">
+                        <div class="container page-content featured-image">
                                 <img :src="post.attributes.featuredImage" />
                             </div>
+                            <hr/>
                         <div class="container page-content" v-for="cModule in cModules" v-bind:key="cModule.slug" :cModule="cModule" :class="`${ cModule.class }`" :style="`${ cModule.style }`">
-                                <h3> {{cModule.header}} </h3>
+                                <h2> {{cModule.header}} </h2>
                                 <div v-if="`${ cModule.item }`== 'image'">
                                         <img :src="`${ cModule.image }`" style="width:100%;" />
                                     </div>

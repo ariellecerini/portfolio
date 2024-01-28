@@ -2,7 +2,7 @@
 
 
 
-    <div id="container_slider-card" class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div id="container_slider-card" class="col-xs-12 col-sm-12 col-md- col-lg-4">
         <div id="container_card-wrapper" class="card-wrapper">
             <div id="container_img-holder" class="img-holder">
                 <img alt="proj-img" :src="`${post.attributes.image}`"/>

@@ -7,7 +7,7 @@ display: featured
 position: Staff Designer 
 role: Lead Designer & Design System Architect
 tools: Figma
-image: /tokens-thumbnail.png
+image: /projects/citrus-design-system/thumbnail.png
 tags: design system
 url: https://www.figma.com/proto/aImBvKBHCpKkCDgGFq1OeJ/Citrus-Tokens?page-id=0%3A1&type=design&node-id=21-2099&viewport=7343%2C1529%2C0.42&t=MUT4XmmYyAa1JpAo-1&scaling=scale-down&mode=design
 link: https://www.figma.com/proto/aImBvKBHCpKkCDgGFq1OeJ/Citrus-Tokens?page-id=0%3A1&type=design&node-id=21-2099&viewport=7343%2C1529%2C0.42&t=MUT4XmmYyAa1JpAo-1&scaling=scale-down&mode=design

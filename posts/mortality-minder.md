@@ -10,17 +10,17 @@ link: /MortalityMinder/index.html
 linkText: "Application Info Page"
 linkTitle: Application Prototype
 description: Worked as a design consultant and CSS specialist on the award winning MortalityMinder web application, as well as built the info webpage for.  
-image: /mortality-minder.png
-tags: Design Research, UI/UX Design, Design Consultant 
+image: /projects/mortality-minder/thumbnail.png
+tags: ux design 
 tools: CSS, R Shiny 
-featuredImage: /mortalityminder-01.png
+featuredImage:  /projects/mortality-minder/featured-image.png
 cModules: {
     moduleOne: { 
         item: button, 
             header: ,
             inner: {
                 contents:{
-                    src: "/MortalityMinder/index.html",
+                    src: "/projects/mortality-minder/index.html",
                     text: "View in New Tab"
                 }
             }
@@ -32,7 +32,7 @@ cModules: {
             style: "width: 100%; height: 600px; max-height: 100vh;",
 
             inner: {
-                src: "/MortalityMinder/index.html"
+                src: "/projects/mortality-minder/index.html"
             }
     } 
     

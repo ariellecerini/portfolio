@@ -13,9 +13,9 @@ position: Digital Designer
 description: The work displayed below is a recreation of the website I developed while working for NY Cake. The original website was built using Wordpress, but it is no longer being used. The recreation is fairly close to the original, but does contain some enhancements. 
 role: Brand Manager, Designer, and Developer
 tools: Figma, Divi Builder, & Wordpress
-image: /Academy.png
+image: /projects/academy-website/thumbnail.png
 tags: Graphic Design, Illustration, Digital Design, Marketing, Content Management 
-featuredImage: /Projects/NYCake/nyc-academy_website.png
+featuredImage: /projects/academy-website/featured-image.png
 cModules: {
    
     moduleEight: {

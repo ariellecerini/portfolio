@@ -14,8 +14,8 @@ position: Doctoral Candidate
 role: Innovator, Developer, & Designer
 tools: React.JS, Redux, PubNub, MongoDB, Draft.JS 
 description: In an effort to allow for greater presence of the individual in their communication within many-to-many communication systems, an application was developed that maps an individuals keystroke biometrics to a variable font.  
-image: /DP-Mockup.png
-tags: Design Research, JS, Modeling, Chat Based Application
+image: /projects/digital-penmanship/thumbnail.png
+tags: ux design
 featuredImage: 
 cModules: {
 
@@ -32,7 +32,7 @@ cModules: {
                             col: col-xs-12 col-sm-12 col-md-12 col-lg-12, 
                             row: 1, 
                             images: {
-                                doc1: "/Projects/DigitalPenmanship/DP-Proposal_V3.pdf",
+                                doc1: "/projects/digital-penmanship/proposal.pdf",
                                 }                    
                             }
              }
@@ -51,7 +51,7 @@ cModules: {
         header: Typing Resize Parameters Sketch,
         class: "col-xs-12 col-sm-12 col-md-12 col-lg-12 design-system",
         inner: {
-                src: "/dissertation/Type_resize_parameters/index.html"
+                src: "/projects/digital-penmanship/Type_resize_parameters/index.html"
             }
     }, 
    moduleFour: { 
@@ -64,31 +64,31 @@ cModules: {
                         col: colTwo, 
                         row: 1, 
                         images:{
-                            imageOne: /dissertation/1.png, 
-                            imageTwo: /dissertation/2.png 
+                            imageOne: /projects/digital-penmanship/type-morphing-experiment/1.png, 
+                            imageTwo: /projects/digital-penmanship/type-morphing-experiment/2.png 
                             }
                         },
                     objectTwo: {
                         col: colTwo, 
                         row: 1,  
                         images:{
-                            imageOne: /dissertation/5.png, 
-                            imageTwo: /dissertation/6.png 
+                            imageOne: /projects/digital-penmanship/type-morphing-experiment/5.png, 
+                            imageTwo: /projects/digital-penmanship/type-morphing-experiment/6.png 
                              },    
                         },
                     objectThree: {
                         col: colTwo, 
                         row: 1, 
                          images:{
-                            imageOne: /dissertation/7.png, 
-                            imageTwo: /dissertation/4.png 
+                            imageOne: /projects/digital-penmanship/type-morphing-experiment/7.png, 
+                            imageTwo: /projects/digital-penmanship/type-morphing-experiment/4.png 
                              },
                     },
                      objectFour: {
                         col: colTwo, 
                         row: 1, 
                          images:{
-                            imageOne: /dissertation/3.png, 
+                            imageOne: /projects/digital-penmanship/type-morphing-experiment/3.png, 
                              },
                     }
                 }
