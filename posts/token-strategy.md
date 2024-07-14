@@ -16,6 +16,43 @@ dateStart: March 2023
 dateEnd: August 2023
 media: UI/UX Design | Design System | UX Management 
 cModules: {
+    moduleOne: {
+        item: text, 
+        header: "Objective",
+        class: "col-xs-12 col-sm-12 col-md-12 col-lg-12 backdrop-secondary",
+        style: "padding: 40px 56px; border-radius: 16px;",
+
+        inner: {     
+            itemOne: {
+                style: "font-size: 1.4rem; color: var(--color-primary-60); font-weight: 700;", 
+                class: "padding-bottom-base padding-top-base",
+                text: "create a robust token framework that enables the following:"
+            },
+
+            itemTwo: {
+                style: "font-size: 1.15rem; color: var(--color-primary); font-weight: 400", 
+                class: "padding-bottom-base",
+                text: "citron styling as a form of design system adoption"
+            },
+            itemThree: {
+                style: "font-size: 1.15rem; color: var(--color-primary); font-weight: 400", 
+                class: "padding-bottom-base",
+                text: "efficient updates and product evolution"
+            },
+            itemFour: {
+                style: "font-size: 1.15rem; color: var(--color-primary); font-weight: 400", 
+                class: "padding-bottom-base",
+                text: "consistent styling throughout the system"
+            },
+            itemFive: {
+                style: "font-size: 1.15rem; color: var(--color-primary); font-weight: 400", 
+                class: "padding-bottom-base",
+                text: "** bonus ** dark mode theming"
+            }
+                          
+         }
+    },
+
       moduleTwo: { 
         item: iframe, 
             header: Application Info Page,
