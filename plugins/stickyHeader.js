@@ -19,17 +19,20 @@
 
 function scrollFunction() {
   let y = screen.availHeight;
+  //var isSticky = document.getElementById("page-header-section");
+  
   
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("page-header-section").classList.add("sub-page");
 
-    console.log("not top");
+   // console.log("not top");
   } else {
     
     document.getElementById("page-header-section").classList.remove("sub-page");
-     console.log("top");
+     //console.log("top");
     
   }
+
 }
 
 window.addEventListener("scroll", scrollFunction);
