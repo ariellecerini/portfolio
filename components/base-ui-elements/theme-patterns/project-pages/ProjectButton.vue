@@ -1,5 +1,5 @@
 <template>
-<div id="container_project-details" class="project-details padding-top-base">
+<div id="container_project-details" class="project-details padding-top-base" style="width: fit-content; justify-self:flex-end;">
     <div id="container_project-details-title" class="project-details-title padding-bottom-base">
 
         <p id="p_project-details-title-text" class="project-details-title-text" > 
@@ -10,7 +10,7 @@
     <div id="container_project-details" class="project-details">
 
         <button-link id="button_main-project-link" :text="`${buttonText}`" :href="`${buttonHref}`"/> 
-        </p>
+        
     </div>
 
 </div>

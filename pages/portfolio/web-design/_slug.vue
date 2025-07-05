@@ -4,47 +4,79 @@
                     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                             <project-title :title="`${post.attributes.title}`"/> 
                             <project-subtitle :subtitle="`${post.attributes.client}`"/>
-                            <div class="row col-no-gutter margin-top-base">
-                                  
-                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-no-gutter">
-                                            <NuxtLink to="/portfolio/web-design"><project-type :text="`${post.attributes.category}`"/></NuxtLink>
-                                        </div> 
+                        </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 padding-top-s">
+                                <project-button :buttonHref="`${post.attributes.link}`" :buttonText="`${post.attributes.linkText}`" />
                                 </div>
-                        </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-no-gutter">
-                            <project-button :href="`${post.attributes.url}`" buttonText="View Website" />
-                        </div>
                     <div class="row"> 
-                            <div class="col-xs-12 col-s-12 col-md-8 col-lg-8  col-no-gutter">
-                                    <div class="row">
-                                            <div class="col-xs-12 col-s-12 col-md-4 col-lg-4">
-                                                    <project-details  title="Position" :details="`${post.attributes.position}`"/>
-                                                </div>
-                                            <div class="col-xs-12 col-s-12 col-md-4 col-lg-4">
-                                                    <project-details  title="Role" :details="`${post.attributes.role}`"/>
-                                                </div> 
-
-                                            <div class="col-xs-12 col-s-12 col-md-4 col-lg-4">
-                                                    <project-details  title="Tools & Technology" :details="`${post.attributes.tools}`"/>
-
-                                                </div>
+                            <div class="col-xs-12 col-s-12 col-md-5 col-lg-5 ">
+                                    <div class="row" style="flex-direction: column;">
+                                                <project-details  title="Position" :details="`${post.attributes.position}`"/>
+                                                <project-details  title="Role" :details="`${post.attributes.role}`"/>
+                                                <!-- <project-details  title="Tools" :details="`${post.attributes.tools}`"/> -->
+                                                <project-details title="Project date" :details="`${post.attributes.dateStart}`"/>
+                                                <NuxtLink to="/Portfolio/ui-ux-design" class="interactive"><project-type :text="`${post.attributes.category}`"/></NuxtLink>
 
                                         </div>
                                 </div>
 
-                           
+                            <div class="col-xs-12 col-s-12 col-md-7 col-lg-7">
+                                    <project-description v-if="`${ post.attributes.description }`!== ''" :description="`${post.attributes.description}`" />
+                                </div>
                         </div>
 
 
                 </section>
 
-        <section class="section-primary-05 full-width-background" style="padding-top: 0;">
+        <section class="section-primary-05 full-width-background" style="background: url('../../section-primary-05.svg'); background-position: 0 0; background-size: 40% auto;  background-repeat: no-repeat;">
 
-                <div class="not-full-width row" style="padding: 0;">
-                        
+                <div class="not-full-width row">
+                
+                        <div class="container page-content featured-image">
                                 <img :src="post.attributes.featuredImage" />
-                          
+                            </div>
+                            <hr/>
+                        <div class="container page-content" v-for="cModule in cModules" v-bind:key="cModule.slug" :cModule="cModule" :class="`${ cModule.class }`" :style="`${ cModule.style }`">
+                                <div class="module-details">
+                                        <div class="module-header">
+                                                <h2>{{cModule.header}}</h2>
+                                                <h3 v-if="`${ cModule.subheader }`!== ''">{{cModule.subheader}}</h3>
+                                        </div>
+                                        <p v-if="`${ cModule.subheader }`!== ''">{{cModule.description}}</p>
+                                </div>
+                                <div v-if="`${ cModule.item }`== 'image'" :class="`${ cModule.blockclass }`"  style="margin-top: 24px;">
+                                        <img :src="`${ cModule.image }`" :class="`${ cModule.imgclass }`" :style="'width:100%;' + `${ cModule.imgstyle }`" />
+                                    </div>
+
+                                <div v-if="`${ cModule.item }`== 'text'" style="margin-top: auto; margin-bottom: auto;">
+                                        <div v-for="content in cModule.inner" v-bind:key="content.slug" :content="content">
+                                                <p :class="content.class" :style="content.style">{{content.text}}</p>
+                                            </div>
+                                    </div>
+
+                                <div v-if="`${ cModule.item }`== 'button'" >
+                                        <div style="width: 100%; padding:0;" v-for="content in cModule.inner" v-bind:key="content.slug" :content="content">
+                                                <button-link :href="`${content.src}`" :text="`${content.text}`"/>
+                                            </div>
+                                    </div> 
+
+                                <div v-if="`${ cModule.item }`== 'iframe'" SameSite="Strict">
+                                        <div style="margin: auto; width: 100%;" :class= "cModule.class" v-for="content in cModule.inner" v-bind:key="content.slug" :content="content">
+                                                <iframe style="padding-top: 0;" :style="content.style" :src="content" frameborder="0" allowfullscreen></iframe>
+                                            </div>            
+                                    </div>   
+
+                                <div v-if="`${ cModule.item }`== 'pdf-grid'" >
+                                        <div v-for="content in cModule.inner.contents" v-bind:key="content.slug" :content="content">
+                                                <div class="row">
+                                                        <div :class="content.col" v-for="image in content.images" v-bind:key="image.slug" :image="image">
+                                                                <a :href="image"><embed :src="image" style="padding-top: 0; padding-bottom: 0;" class = "document-pdf" type="application/pdf"></a>
+                                                            </div>
+                                                    </div>
+                                            </div>
+                                    </div>
+                            </div>  
                     </div>
 
             </section>              
@@ -68,7 +100,7 @@ import ButtonLink from '~/components/base-ui-elements/core/button-link.vue'
 
 export default {
   layout: 'core-layout',
-  name: 'website-design',
+  name: 'ui-ux-design',
   components: {
       ProjectType,
       Buttons,
@@ -118,6 +150,14 @@ export default {
 .phoneHolder  iframe{
     height: 650px;
     margin: auto;
+
+}
+
+.desktop-holder iframe{
+        height: 650px; 
+        width: 100%; 
+            border: #e6e6e6 2px solid;
+    border-radius: 12px;
 
 }
 

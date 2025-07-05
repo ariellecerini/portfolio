@@ -1,0 +1,21 @@
+.interactive:hover{
+    filter: brightness(1.04) saturate(1.02);
+}
+
+.interactive:pressed{
+    filter: brightness(.94) saturate(1.02);
+}
+
+.interactive:focus-visible{
+    outline-offset: 4px;
+    width: fit-content;
+    outline-width: 2px;
+    outline-color: $color-tertiary-shades-80;
+}
+
+:focus-visible{
+    outline-offset: 4px;
+    width: fit-content;
+    outline-width: 2px;
+    outline-color: $color-tertiary-shades-80;
+}

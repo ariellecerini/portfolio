@@ -3,91 +3,78 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/ariellecerini/portfolio/pages/about.vue",
-    "chunkName": "pages/about",
-    "_name": "_85e0f260"
+    "chunkName": "pages/about"
   },
   {
     "name": "portfolio",
     "path": "/portfolio",
     "component": "/Users/ariellecerini/portfolio/pages/portfolio/index.vue",
-    "chunkName": "pages/portfolio/index",
-    "_name": "_0ad11064"
+    "chunkName": "pages/portfolio/index"
   },
   {
     "name": "test",
     "path": "/test",
     "component": "/Users/ariellecerini/portfolio/pages/test.vue",
-    "chunkName": "pages/test",
-    "_name": "_03dfe4c2"
+    "chunkName": "pages/test"
   },
   {
     "name": "portfolio-communications-design",
     "path": "/portfolio/communications-design",
     "component": "/Users/ariellecerini/portfolio/pages/portfolio/communications-design/index.vue",
-    "chunkName": "pages/portfolio/communications-design/index",
-    "_name": "_5225e62d"
+    "chunkName": "pages/portfolio/communications-design/index"
   },
   {
     "name": "portfolio-design-research",
     "path": "/portfolio/design-research",
     "component": "/Users/ariellecerini/portfolio/pages/portfolio/design-research/index.vue",
-    "chunkName": "pages/portfolio/design-research/index",
-    "_name": "_c04cce6e"
+    "chunkName": "pages/portfolio/design-research/index"
   },
   {
     "name": "portfolio-ui-ux-design",
     "path": "/portfolio/ui-ux-design",
     "component": "/Users/ariellecerini/portfolio/pages/portfolio/ui-ux-design/index.vue",
-    "chunkName": "pages/portfolio/ui-ux-design/index",
-    "_name": "_5166fda6"
+    "chunkName": "pages/portfolio/ui-ux-design/index"
   },
   {
     "name": "portfolio-web-design",
     "path": "/portfolio/web-design",
     "component": "/Users/ariellecerini/portfolio/pages/portfolio/web-design/index.vue",
-    "chunkName": "pages/portfolio/web-design/index",
-    "_name": "_3545f664"
+    "chunkName": "pages/portfolio/web-design/index"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/ariellecerini/portfolio/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_46713cd6"
+    "chunkName": "pages/index"
   },
   {
     "name": "portfolio-communications-design-slug",
     "path": "/portfolio/communications-design/:slug?",
     "component": "/Users/ariellecerini/portfolio/pages/portfolio/communications-design/_slug.vue",
-    "chunkName": "pages/portfolio/communications-design/_slug",
-    "_name": "_506f44e5"
+    "chunkName": "pages/portfolio/communications-design/_slug"
   },
   {
     "name": "portfolio-design-research-slug",
     "path": "/portfolio/design-research/:slug?",
     "component": "/Users/ariellecerini/portfolio/pages/portfolio/design-research/_slug.vue",
-    "chunkName": "pages/portfolio/design-research/_slug",
-    "_name": "_c3ba10fe"
+    "chunkName": "pages/portfolio/design-research/_slug"
   },
   {
     "name": "portfolio-ui-ux-design-slug",
     "path": "/portfolio/ui-ux-design/:slug?",
     "component": "/Users/ariellecerini/portfolio/pages/portfolio/ui-ux-design/_slug.vue",
-    "chunkName": "pages/portfolio/ui-ux-design/_slug",
-    "_name": "_4fb05c5e"
+    "chunkName": "pages/portfolio/ui-ux-design/_slug"
   },
   {
     "name": "portfolio-web-design-slug",
     "path": "/portfolio/web-design/:slug?",
     "component": "/Users/ariellecerini/portfolio/pages/portfolio/web-design/_slug.vue",
-    "chunkName": "pages/portfolio/web-design/_slug",
-    "_name": "_38b338f4"
+    "chunkName": "pages/portfolio/web-design/_slug"
   },
   {
     "name": "portfolio-slug",
     "path": "/portfolio/:slug",
     "component": "/Users/ariellecerini/portfolio/pages/portfolio/_slug.vue",
-    "chunkName": "pages/portfolio/_slug",
-    "_name": "_0e3e52f4"
+    "chunkName": "pages/portfolio/_slug"
   }
 ]

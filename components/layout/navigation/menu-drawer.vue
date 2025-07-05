@@ -13,14 +13,14 @@
                                         <p class="section-title">Design Portfolio</p>
                                         <div class="link-items row" style="padding-top: 8px;">
                                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><NuxtLink to="/portfolio/ui-ux-design" class="nav-link">UI/UX Design</NuxtLink></div>
-                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><NuxtLink to="/portfolio/communications-design" class="nav-link">Communications Design</NuxtLink></div>
-                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><NuxtLink to="/portfolio/design-research" class="nav-link">Design Research</NuxtLink></div>
-                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><NuxtLink to="/portfolio/web-design" class="nav-link">Web Design</NuxtLink></div>
+                                                <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><NuxtLink to="/portfolio/communications-design" class="nav-link">Communications Design</NuxtLink></div> -->
+                                                <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><NuxtLink to="/portfolio/design-research" class="nav-link">Design Research</NuxtLink></div> -->
+                                                <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><NuxtLink to="/portfolio/web-design" class="nav-link">Web Design</NuxtLink></div> -->
 
                                                 </div>
                                         </div> 
                                 </div>
-                        <div class="row padding-bottom-base">
+                        <!-- <div class="row padding-bottom-base">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter">
                                         <p class="section-title">Web Applications</p>
                                         <div class="link-items row" style="padding-top: 8px;">
@@ -28,7 +28,7 @@
                                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-bottom-base"><a href="https://digitalpenmanship.app" class="nav-link">Digital Penmanship</a></div>
                                                 </div>
                                         </div>
-                                </div>
+                                </div> -->
                         <div class="row padding-bottom-base">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-no-gutter padding-top-base">
                                         <p class="section-title">Social Media</p>

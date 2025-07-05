@@ -4,39 +4,25 @@
                     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                             <project-title :title="`${post.attributes.title}`"/> 
                             <project-subtitle :subtitle="`${post.attributes.client}`"/>
-                            <div class="row col-no-gutter margin-top-base">
-                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-no-gutter">
-                                            <project-timeframe :timeframeStart="`${post.attributes.dateStart}`" :timeframeEnd="`${post.attributes.dateEnd}`"/>
-                                        </div> 
-                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-no-gutter">
-                                            <NuxtLink to="/Portfolio/ui-ux-design"><project-type :text="`${post.attributes.category}`"/></NuxtLink>
-                                        </div> 
-                                </div>
                         </div>
 
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 padding-top-s">
-                                                <project-button :buttonHref="`${post.attributes.link}`" :buttonText="`${post.attributes.linkText}`" :buttonTitle="`${post.attributes.linkTitle}`" />
-                                                </div>
+                                <project-button :buttonHref="`${post.attributes.link}`" :buttonText="`${post.attributes.linkText}`" />
+                                </div>
                     <div class="row"> 
-                            <div class="col-xs-12 col-s-12 col-md-8 col-lg-8  col-no-gutter">
-                                    <div class="row">
-                                            <div class="col-xs-12 col-s-12 col-md-4 col-lg-4">
-                                                    <project-details  title="Position" :details="`${post.attributes.position}`"/>
-                                                </div>
-                                            <div class="col-xs-12 col-s-12 col-md-4 col-lg-4">
-                                                    <project-details  title="Role" :details="`${post.attributes.role}`"/>
-                                                </div> 
-
-                                            <div class="col-xs-12 col-s-12 col-md-4 col-lg-4">
-                                                    <project-details  title="Tools & Technology" :details="`${post.attributes.tools}`"/>
-
-                                                </div>
+                            <div class="col-xs-12 col-s-12 col-md-5 col-lg-5 ">
+                                    <div class="row" style="flex-direction: column;">
+                                                <project-details  title="Position" :details="`${post.attributes.position}`"/>
+                                                <project-details  title="Role" :details="`${post.attributes.role}`"/>
+                                                <!-- <project-details  title="Tools" :details="`${post.attributes.tools}`"/> -->
+                                                <project-details title="Project date" :details="`${post.attributes.dateStart}`"/>
+                                                <NuxtLink to="/Portfolio/ui-ux-design" class="interactive"><project-type :text="`${post.attributes.category}`"/></NuxtLink>
 
                                         </div>
                                 </div>
 
-                            <div class="col-xs-12 col-s-12 col-md-4 col-lg-4">
-                                    <project-description :description="`${post.attributes.description}`" />
+                            <div class="col-xs-12 col-s-12 col-md-7 col-lg-7">
+                                    <project-description v-if="`${ post.attributes.description }`!== ''" :description="`${post.attributes.description}`" />
                                 </div>
                         </div>
 
@@ -52,9 +38,15 @@
                             </div>
                             <hr/>
                         <div class="container page-content" v-for="cModule in cModules" v-bind:key="cModule.slug" :cModule="cModule" :class="`${ cModule.class }`" :style="`${ cModule.style }`">
-                                <h2> {{cModule.header}} </h2>
-                                <div v-if="`${ cModule.item }`== 'image'">
-                                        <img :src="`${ cModule.image }`" style="width:100%;" />
+                                <div class="module-details">
+                                        <div class="module-header">
+                                                <h2>{{cModule.header}}</h2>
+                                                <h3 v-if="`${ cModule.subheader }`!== ''">{{cModule.subheader}}</h3>
+                                        </div>
+                                        <p v-if="`${ cModule.subheader }`!== ''">{{cModule.description}}</p>
+                                </div>
+                                <div v-if="`${ cModule.item }`== 'image'" :class="`${ cModule.blockclass }`"  style="margin-top: 24px;">
+                                        <img :src="`${ cModule.image }`" :class="`${ cModule.imgclass }`" :style="'width:100%;' + `${ cModule.imgstyle }`" />
                                     </div>
 
                                 <div v-if="`${ cModule.item }`== 'text'" style="margin-top: auto; margin-bottom: auto;">
